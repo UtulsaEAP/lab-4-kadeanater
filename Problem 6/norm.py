@@ -13,9 +13,7 @@ def norm():
     
     for value in values:
         normalized_value = value / max_value
-        
-    
-    print(f'{normalized_value:.2f}')
+        print(f'{normalized_value:.2f}')
 
 if __name__ == "__main__":
     norm()
