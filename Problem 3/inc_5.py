@@ -15,9 +15,9 @@ def inc_5():
         return
     current_value = initial_value
     while current_value <= final_value:
+    
         print(current_value)
         current_value += 5
-
 
 if __name__ == '__main__':
     inc_5()
